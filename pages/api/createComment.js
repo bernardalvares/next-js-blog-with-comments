@@ -16,9 +16,9 @@ export default async function createComment(req, res) {
         _type: 'reference',
         _ref: _id,
       },
-      nome,
+      name,
       email,
-      comentário
+      comment
     })
   } catch (err) {
     console.error(err)
