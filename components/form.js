@@ -44,7 +44,7 @@ export default function Form ({_id}) {
     <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-lg" disabled>
       <input ref={register} type="hidden" name="_id" value={_id} />
       <label className="block mb-5">
-        <span className="text-gray-700">Name</span>
+        <span className="text-gray-700">Nome</span>
         <input name="name" ref={register({required: true})} className="shadow border rounded py-2 px-3 form-input mt-1 block w-full" placeholder="John Appleseed"/>
       </label>
       <label className="block mb-5">
@@ -52,11 +52,11 @@ export default function Form ({_id}) {
         <input name="email" type="email" ref={register({required: true})} className="shadow border rounded py-2 px-3 form-input mt-1 block w-full" placeholder="your@email.com"/>
       </label>
       <label className="block mb-5">
-        <span className="text-gray-700">Comment</span>
+        <span className="text-gray-700">Comentário</span>
         <textarea ref={register({required: true})} name="comment" className="shadow border rounded py-2 px-3  form-textarea mt-1 block w-full" rows="8" placeholder="Enter some long form content."></textarea>
       </label>
       {/* errors will return when field validation fails  */}
-      {errors.exampleRequired && <span>This field is required</span>}
+      {errors.exampleRequired && <span>É necessário preencher este campo</span>}
       <input type="submit" className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" />
     </form>
 )
