@@ -24,12 +24,12 @@ export default function Form ({_id}) {
   }
 
   if (isSubmitting) {
-    return <h3>Submitting comment…</h3>
+    return <h3>Enviando comentário...</h3>
   }
   if (hasSubmitted) {
     return (
     <>
-      <h3>Thanks for your comment!</h3>
+      <h3>Obrigado pelo seu comentário!</h3>
       <ul>
         <li>
           Name: {formData.name} <br />
