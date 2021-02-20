@@ -7,21 +7,7 @@ export default function Intro() {
         Blog para Joana
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Always connecting the dots {' '}
-        <a
-          href="https://nextjs.org/"
-          className="underline hover:text-success duration-200 transition-colors"
-        >
-          and
-        </a>{' '}
-        and{' '}
-        <a
-          href={CMS_URL}
-          className="underline hover:text-success duration-200 transition-colors"
-        >
-        trusting the process
-        </a>
-        .
+        Bem vindo, aqui você pode ler os meus textos {' '}       
       </h4>
     </section>
   )
