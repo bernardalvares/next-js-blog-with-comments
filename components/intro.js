@@ -7,7 +7,7 @@ export default function Intro() {
         Blog.
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A statically generated blog example using{' '}
+        Always connecting the dots {' '}
         <a
           href="https://nextjs.org/"
           className="underline hover:text-success duration-200 transition-colors"
@@ -19,7 +19,7 @@ export default function Intro() {
           href={CMS_URL}
           className="underline hover:text-success duration-200 transition-colors"
         >
-          Sanity.io
+          and trusting the process
         </a>
         .
       </h4>
