@@ -12,14 +12,14 @@ export default function Intro() {
           href="https://nextjs.org/"
           className="underline hover:text-success duration-200 transition-colors"
         >
-          Next.js
+          and
         </a>{' '}
         and{' '}
         <a
           href={CMS_URL}
           className="underline hover:text-success duration-200 transition-colors"
         >
-          and trusting the process
+        trusting the process
         </a>
         .
       </h4>
