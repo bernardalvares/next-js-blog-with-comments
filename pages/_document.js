@@ -9,7 +9,7 @@ export default class extends Document {
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-PSVTZR8TM8"></script>
+            src={`https://www.googletagmanager.com/gtag/js?id=G-PSVTZR8TM8">
           />
           <script
             dangerouslySetInnerHTML={{
