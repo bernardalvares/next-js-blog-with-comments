@@ -15,14 +15,6 @@ export default function Index({ allPosts, preview }) {
       <Layout preview={preview}>
         <Head>
           <title>Uma página Blog</title>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-PSVTZR8TM8"></script>
-          <script>
-           window.dataLayer = window.dataLayer || [];
-           function gtag(){dataLayer.push(arguments);}
-           gtag('js', new Date());
-
-           gtag('config', 'G-PSVTZR8TM8');
-          </script>
         </Head>
         <Container>
           <Intro />
