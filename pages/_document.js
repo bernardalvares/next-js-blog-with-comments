@@ -13,8 +13,6 @@ export default class MyDocument extends Document {
             
               gtag('config', 'G-PSVTZR8TM8');`
               </script>
-            }}
-          />
         </Head>
         <body>
           <Main />
