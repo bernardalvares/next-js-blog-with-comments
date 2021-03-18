@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
             
-              gtag('config', 'G-PSVTZR8TM8');`
+              gtag('config', 'G-PSVTZR8TM8');
             }}
           />
         </Head>
