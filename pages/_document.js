@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
               gtag('js', new Date());
             
               gtag('config', 'G-PSVTZR8TM8');
-              </script>
+          </script>
         </Head>
         <body>
           <Main />
